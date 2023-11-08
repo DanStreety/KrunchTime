@@ -163,6 +163,7 @@ func chapterTwo(username: String) {
                 }
             
                 return score
+                print("End Of Quest Congratulations!! You have helped Zora and the water part of Harmonia.  With the tools you've acquired and used successfully, you built new damns to stop the river flow, you saved and helped the sealife ecosystem, and you help to rebuild the coral reef.  You pulled the water Life of Harmonia back into a smooth flow and balance.  For your efforts you receive an additional tool.  A Shield to protect yoou as you carry on to your next quest.  Use all those tools to the best of you ability.  Be safe and careful on your travels.")
             }
         
             print(totalPoints(challenges: challenges))
