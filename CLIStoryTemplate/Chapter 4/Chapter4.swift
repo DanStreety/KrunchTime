@@ -96,6 +96,8 @@ func chapterFour()  {
     else if value == 3 {
         print("wrong!!")
     }
+    getUserChoice2()
+    LoreText()
 }
 
 ////////////////////////////////
@@ -180,8 +182,7 @@ func chapterFour()  {
         
         return makeChoice(totalNumberOfChoices: 3, completionHandler: getUserChoice2)
     }
-//    getUserChoice()
-//    LoreText()
+   
     
     var value: Int = getUserChoice2()
 //    
