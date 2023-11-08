@@ -103,6 +103,7 @@ let selectionTwo: [String] = [
 
 //running story
 func chapterThree() {
+
     getUserChoice()
     loreText()
     selection(options: selectionTwo, userChoice: getUserChoice2())
@@ -130,4 +131,5 @@ func chapterThree() {
     print("Scorn has been defeated by \(name1.username)!")
 //    selection(options: userAttackOptions, userChoice: userChoiceBattleSequence())
     
+
 }
