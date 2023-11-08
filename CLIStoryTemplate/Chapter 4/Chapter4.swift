@@ -2,7 +2,7 @@
 ////  Chapter4.swift
 ////  CLIStoryTemplate
 ////
-//
+//// "Hey Jalen! Before you start this, make sure you clear your errors. Once you're finished, make sure to delete this comment. Before you delete this comment, select all of your code with Command+A, then hit Command+/ to uncomment everything. Once you do this, you should see your code populate properly. It's currently commented out so that it doesn't intefere with chapters 1-3."
 //import Foundation
 //
 //func chapterFour()  {
@@ -100,12 +100,12 @@
 //    LoreText()
 //}
 //
-//////////////////////////////////
+//////////////////////////
 //
 //
 //
 //
-//////func chapterFour()  {
+////func chapterFour()  {
 //    
 //    // character struct
 //    struct User {
@@ -185,16 +185,16 @@
 //   
 //    
 //    var value: Int = getUserChoice2()
-////    
-////    if value == 1 {
-////        print("Wrong!!")
-////    }
-////    else  if value == 2 {
-////        print("Good job you got it right!")
-////    }
-////    else if value == 3 {
-////        print("Wrong!!")
-////    }
+//    
+//    if value == 1 {
+//        print("Wrong!!")
+//    }
+//    else  if value == 2 {
+//        print("Good job you got it right!")
+//    }
+//    else if value == 3 {
+//        print("Wrong!!")
+//    }
 //
 //
 //
@@ -292,7 +292,7 @@
 //}
 //
 //// running story
-/////func chapterFour()  {
+////func chapterFour()  {
 ////    LoreText()
 //
 //
