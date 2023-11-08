@@ -117,13 +117,15 @@ func chapterTwo(username: String) {
             print("You are now challenged with tackling the Sealife of Harmonia.  You must decided which path the go.  Select A or B")
             if let decison = readLine() {
                 userInput = decison
+            } else{
+                print("Invalid input. Try again.")
             }
-            if userInput == "" {
+            if userInput == "A" {
                 print(SealifeA)
-                print("Using the helmet, you mentally send the messages to the non-mutated animals.  You guide them through the water back to their natural habitats.  These creatures can now continue to thrive.  You gain 5 points.")
+//                print("Using the helmet, you mentally send the messages to the non-mutated animals.  You guide them through the water back to their natural habitats.  These creatures can now continue to thrive.  You gain 5 points.")
             }else {
                 print(SealifeB)
-                print("Using the helmet, you mentally send the messages to the mutated animals.  You guide them through the water to a new ecosystem.  These creatures can now thrive in this new environment.  You gain 10 points.")
+//                print("Using the helmet, you mentally send the messages to the mutated animals.  You guide them through the water to a new ecosystem.  These creatures can now thrive in this new environment.  You gain 10 points.")
             }
             let Decisions = ["A", "B"]
             let rewardPoints = [("Using the helmet, you mentally send the messages to the non-mutated animals.  You guide them through the water back to their natural habitats.  These creatures can now continue to thrive.  You gain 5 points."), ("Using the helmet, you mentally send the messages to the mutated animals.  You guide them through the water to a new ecosystem.  These creatures can now thrive in this new environment.  You gain 10 points.")]
